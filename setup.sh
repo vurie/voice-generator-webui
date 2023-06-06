@@ -1,5 +1,5 @@
 if [ "$1" != "en" ]; then
-  pip install pyopenjtalk
+  pip install pyopenjtalk --no-build-isolation
 fi
 
 cd voice-generator-webui
