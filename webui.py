@@ -19,4 +19,4 @@ with gr.Blocks(themes.Seafoam()) as app:
 if iscolab:
   app.queue().launch(share=True)
 else:
-  app.queue().launch()
+  app.queue().launch(sever_name='0.0.0.0')
